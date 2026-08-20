@@ -1,238 +1,2470 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>iCreateRandomApps</title>
+<title>Microwave's Software</title>
 
-<style type="text/css">
-body{
-cursor:url("data:application/octet-stream;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAAAOcLDAb/AAAAugAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////v7+//woKCvYAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/7+/v/8KCgr2AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/CgoK9gAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOcAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////P////g////4P///8D///PA///xgP//8IH///AB///wA///8AP///AAB//wAAf/8AAP//AAH//wAD//8AB///AA///wAf//8AP///AH///wD///8B////A////wf///8P////H////z////8="), auto;
-}
-</style>
 <style>
-<style type="text/css">
-body{
-cursor:url("data:application/octet-stream;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAAAOcLDAb/AAAAugAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////v7+//woKCvYAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/7+/v/8KCgr2AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/CgoK9gAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOcAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////P////g////4P///8D///PA///xgP//8IH///AB///wA///8AP///AAB//wAAf/8AAP//AAH//wAD//8AB///AA///wAf//8AP///AH///wD///8B////A////wf///8P////H////z////8="), pointer;
+
+/* =========================================================
+   WINDOWS FONT
+   ========================================================= */
+
+@font-face {
+    font-family: "Windows Regular";
+    src: url("https://file.garden/anOZdBOaHBQsSVb8/Windows%20Regular.ttf")
+         format("truetype");
 }
-</style>
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+* {
+    box-sizing: border-box;
+    font-family:
+        "Windows Regular",
+        "MS Sans Serif",
+        Tahoma,
+        sans-serif;
 }
 
-body{
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
 
-    font-family:"Segoe UI",sans-serif;
+body {
+    background: #008080;
+    color: #000;
+    font-size: 11px;
 
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+
+/* =========================================================
+   CLASSIC WINDOWS BUTTON
+   ========================================================= */
+
+.win-button {
+    min-width: 75px;
+    height: 23px;
+
+    padding: 2px 10px;
+
+    background: #c0c0c0;
+    color: #000;
+
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #404040;
+    border-bottom: 2px solid #404040;
+
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 11px;
+
+    text-decoration: none;
+
+    vertical-align: middle;
+}
+
+.win-button:hover {
+    background: #d0d0d0;
+}
+
+.win-button:active {
+    border-top: 2px solid #404040;
+    border-left: 2px solid #404040;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+
+/* =========================================================
+   DESKTOP
+   ========================================================= */
+
+#desktop {
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 28px;
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   DESKTOP ICONS
+   ========================================================= */
+
+.desktop-icon {
+    position: absolute;
+
+    width: 110px;
+
+    padding: 5px;
+
+    text-align: center;
+
+    color: white;
+
+    cursor: default;
+}
+
+.desktop-icon img {
+    width: 48px;
+    height: 48px;
+
+    display: block;
+
+    margin: 0 auto 5px;
+
+    object-fit: contain;
+}
+
+.desktop-icon span {
+    display: inline;
+
+    padding: 1px 2px;
+}
+
+.desktop-icon:hover span {
+    background: #000080;
+}
+
+
+/* =========================================================
+   WINDOWS
+   ========================================================= */
+
+.window {
+    position: absolute;
+
+    background: #c0c0c0;
+
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #404040;
+    border-bottom: 2px solid #404040;
+
+    box-shadow: 1px 1px 0 #000;
+
+    min-width: 300px;
+    min-height: 150px;
+
+    max-width: calc(100vw - 10px);
+    max-height: calc(100vh - 38px);
+
+    resize: both;
+
+    overflow: hidden;
+
+    z-index: 10;
+}
+
+
+/* =========================================================
+   RESIZE HANDLE
+   ========================================================= */
+
+.window::-webkit-resizer {
     background:
-        radial-gradient(circle at top,rgba(255,255,255,.7),transparent 40%),
-        linear-gradient(#eef5fd,#c7ddf5);
-
-    min-height:100vh;
+        linear-gradient(
+            135deg,
+            transparent 0px,
+            transparent 3px,
+            #404040 3px,
+            #404040 4px,
+            transparent 4px,
+            transparent 7px,
+            #404040 7px,
+            #404040 8px,
+            transparent 8px
+        );
 }
 
-header{
 
-    padding:60px 20px;
-    text-align:center;
+/* =========================================================
+   MAXIMIZED WINDOW
+   ========================================================= */
+
+.window.maximized {
+    left: 0 !important;
+    top: 0 !important;
+
+    width: 100vw !important;
+    height: calc(100vh - 28px) !important;
+
+    max-width: none !important;
+    max-height: none !important;
+
+    resize: none;
+
+    transform: none !important;
+}
+
+
+/* =========================================================
+   TITLE BAR
+   ========================================================= */
+
+.titlebar {
+    height: 20px;
+
+    margin: 2px 2px 0;
+
+    display: flex;
+
+    align-items: center;
+
+    padding-left: 4px;
+
+    background: #000080;
+
+    color: white;
+
+    font-weight: bold;
+
+    cursor: move;
+
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.title-icon {
+    width: 18px;
+    height: 18px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 3px;
+}
+
+.title-icon img {
+    width: 16px;
+    height: 16px;
+
+    object-fit: contain;
+}
+
+.title-text {
+    flex: 1;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   WINDOW CONTROLS
+   ========================================================= */
+
+.window-controls {
+    display: flex;
+
+    gap: 2px;
+
+    margin-right: 2px;
+}
+
+.window-control {
+    width: 16px;
+    height: 14px;
+
+    padding: 0;
+
+    background: #c0c0c0;
+
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #404040;
+    border-bottom: 1px solid #404040;
+
+    color: #000;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    line-height: 10px;
+
+    cursor: pointer;
+}
+
+.window-control:active {
+    border-top: 1px solid #404040;
+    border-left: 1px solid #404040;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
+/* =========================================================
+   MENU BAR
+   ========================================================= */
+
+.menu-bar {
+    height: 21px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding-left: 3px;
+
+    border-bottom: 1px solid #808080;
+}
+
+.menu {
+    padding: 3px 8px;
+
+    cursor: pointer;
+}
+
+.menu:hover {
+    background: #000080;
+    color: white;
+}
+
+
+/* =========================================================
+   WINDOW CONTENT
+   ========================================================= */
+
+.window-content {
+    padding: 10px;
+
+    overflow: auto;
+}
+
+
+/* =========================================================
+   INSET PANEL
+   ========================================================= */
+
+.inset {
+    background: #fff;
+
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+
+    padding: 10px;
+}
+
+
+/* =========================================================
+   STATUS BAR
+   ========================================================= */
+
+.statusbar {
+    position: absolute;
+
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+
+    height: 19px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding-left: 5px;
+
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+
+    background: #c0c0c0;
+}
+
+
+/* =========================================================
+   SOFTWARE ITEMS
+   ========================================================= */
+
+.software {
+    background: #fff;
+
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+
+    padding: 8px;
+
+    margin-bottom: 8px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+.software-icon {
+    width: 48px;
+    height: 48px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.software-icon img {
+    width: 46px;
+    height: 46px;
+
+    object-fit: contain;
+}
+
+.software-info {
+    flex: 1;
+
+    min-width: 0;
+}
+
+.software-info b {
+    font-size: 13px;
+}
+
+.software-info p {
+    margin: 4px 0 0;
+}
+
+
+/* =========================================================
+   DIALOG BUTTONS
+   ========================================================= */
+
+.dialog-buttons {
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: 7px;
+
+    margin-top: 12px;
+}
+
+
+/* =========================================================
+   JSPAINt
+   ========================================================= */
+
+#paint-window {
+    width: 900px;
+    height: 680px;
+
+    left: 100px;
+    top: 50px;
+
+    display: none;
+
+    z-index: 100;
+}
+
+#paint-frame {
+    width: 100%;
+
+    height: calc(100% - 41px);
+
+    border: 0;
+
+    display: block;
+
+    background: white;
+}
+
+#paint-window.maximized #paint-frame {
+    height: calc(100% - 41px);
+}
+
+
+/* =========================================================
+   WELCOME WINDOW
+   ========================================================= */
+
+#welcome-window {
+    width: 680px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+/* =========================================================
+   88x31 BUTTONS
+   ========================================================= */
+
+#web-buttons {
+    position: absolute;
+
+    left: 50%;
+    bottom: 38px;
+
+    transform: translateX(-50%);
+
+    width: min(100%, 700px);
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 4px;
+
+    padding: 4px;
+}
+
+#web-buttons img {
+    width: 88px;
+    height: 31px;
+
+    object-fit: contain;
+}
+
+#web-buttons a {
+    display: block;
+
+    width: 88px;
+    height: 31px;
+}
+
+#web-buttons a:hover {
+    outline: 1px dotted white;
+}
+
+
+/* =========================================================
+   TASKBAR
+   ========================================================= */
+
+#taskbar {
+    position: fixed;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 28px;
+
+    background: #c0c0c0;
+
+    border-top: 2px solid #fff;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 2px;
+
+    z-index: 999999;
+}
+
+#start-button {
+    height: 23px;
+
+    min-width: 72px;
+
+    font-weight: bold;
+}
+
+#task-buttons {
+    flex: 1;
+
+    height: 23px;
+
+    display: flex;
+
+    gap: 3px;
+
+    margin-left: 4px;
+}
+
+.task-button {
+    min-width: 150px;
+    max-width: 220px;
+
+    height: 23px;
+
+    background: #c0c0c0;
+
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #404040;
+    border-bottom: 2px solid #404040;
+
+    text-align: left;
+
+    padding-left: 6px;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    text-overflow: ellipsis;
+
+    cursor: pointer;
+}
+
+#clock {
+    min-width: 70px;
+
+    height: 23px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+
+/* =========================================================
+   START MENU
+   ========================================================= */
+
+#start-menu {
+    position: fixed;
+
+    left: 2px;
+    bottom: 27px;
+
+    width: 280px;
+
+    display: none;
+
+    background: #c0c0c0;
+
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #404040;
+    border-bottom: 2px solid #404040;
+
+    z-index: 999999;
+}
+
+.start-banner {
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+    width: 25px;
+
+    background: #808080;
+
+    writing-mode: vertical-rl;
+
+    transform: rotate(180deg);
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    padding: 8px 3px;
+}
+
+.start-content {
+    margin-left: 25px;
+}
+
+.start-item {
+    min-height: 44px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 5px 10px;
+
+    cursor: pointer;
+}
+
+.start-item:hover {
+    background: #000080;
+
+    color: white;
+}
+
+.start-icon {
+    width: 35px;
+    height: 35px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 5px;
+}
+
+.start-icon img {
+    width: 30px;
+    height: 30px;
+
+    object-fit: contain;
+}
+
+.start-separator {
+    height: 1px;
+
+    margin: 3px 5px;
+
+    border-top: 1px solid #808080;
+
+    border-bottom: 1px solid #fff;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    #welcome-window {
+        width: calc(100% - 20px);
+
+        max-height: calc(100% - 40px);
+
+        overflow: hidden;
+    }
+
+    #paint-window {
+        left: 5px;
+        top: 5px;
+
+        width: calc(100% - 10px);
+
+        height: calc(100% - 35px);
+    }
+
+    .task-button {
+        min-width: 80px;
+    }
+
+    .software {
+        flex-wrap: wrap;
+    }
 
 }
 
-h1{
-
-    font-size:52px;
-
-    color:#22496d;
-
-    text-shadow:0 1px white;
-}
-
-.subtitle{
-
-    margin-top:12px;
-
-    color:#49647d;
-
-    font-size:20px;
-}
-
-.container{
-
-    width:min(1100px,95%);
-    margin:auto;
-
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-
-    gap:24px;
-
-    padding-bottom:50px;
-
-}
-
-.card{
-
-    background:linear-gradient(
-        to bottom,
-        rgba(255,255,255,.95),
-        rgba(232,242,253,.95)
-    );
-
-    border:1px solid #91b7e1;
-
-    border-radius:10px;
-
-    padding:25px;
-
-    box-shadow:
-        inset 0 1px rgba(255,255,255,.9),
-        0 3px 10px rgba(0,0,0,.15);
-
-    transition:.18s;
-}
-
-.card:hover{
-
-    transform:translateY(-3px);
-
-    border-color:#4d9df9;
-
-    box-shadow:
-        0 0 14px rgba(70,150,255,.35);
-}
-
-.card h2{
-
-    color:#20496f;
-
-    margin-bottom:12px;
-}
-
-.card p{
-
-    color:#566f86;
-
-    line-height:1.5;
-}
-
-.button{
-
-    display:inline-block;
-
-    margin-top:20px;
-
-    padding:10px 18px;
-
-    border-radius:6px;
-
-    text-decoration:none;
-
-    color:#1d3550;
-
-    font-weight:600;
-
-    background:linear-gradient(#ffffff,#d8ebff);
-
-    border:1px solid #80acd8;
-}
-
-.button:hover{
-
-    background:linear-gradient(#ffffff,#c7e4ff);
-
-}
-
-footer{
-
-    text-align:center;
-
-    padding:40px;
-
-    color:#5b7085;
-}
 </style>
-
 </head>
+
+
 <body>
 
-<header>
 
-<h1>iCreateRandomApps</h1>
+<!-- =========================================================
+     DESKTOP
+     ========================================================= -->
 
-<div class="subtitle">
-Random apps, cursor packs, experiments and more.
+<div id="desktop">
+
+
+    <!-- =====================================================
+         MINEOPTIPORT ICON
+         ===================================================== -->
+
+    <div
+        class="desktop-icon"
+        style="left:15px;top:15px;"
+        ondblclick="openWindow('mineopti-window')"
+    >
+
+        <img
+            src="https://www.rw-designer.com/icon-image/5547-256x256x32.png"
+            alt="MineOptiPort"
+        >
+
+        <span>MineOptiPort</span>
+
+    </div>
+
+
+    <!-- =====================================================
+         CMATRIX ICON
+         ===================================================== -->
+
+    <div
+        class="desktop-icon"
+        style="left:15px;top:110px;"
+        ondblclick="openWindow('cmatrix-window')"
+    >
+
+        <img
+            src="https://itsfoss.com/content/images/2023/10/Cmatrix.gif"
+            alt="Windows CMatrix"
+        >
+
+        <span>Windows CMatrix</span>
+
+    </div>
+
+
+    <!-- =====================================================
+         WINDOWS G ICON
+         ===================================================== -->
+
+    <div
+        class="desktop-icon"
+        style="left:15px;top:205px;"
+        ondblclick="openWindow('windowsg-window')"
+    >
+
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Microsoft_Windows_3.1x_logo_with_wordmark.svg/500px-Microsoft_Windows_3.1x_logo_with_wordmark.svg.png"
+            alt="Windows 3.1"
+        >
+
+        <span>WindowsG 3.11</span>
+
+    </div>
+
+
+    <!-- =====================================================
+         JSPAINT ICON
+         ===================================================== -->
+
+    <div
+        class="desktop-icon"
+        style="left:15px;top:300px;"
+        ondblclick="openWindow('paint-window')"
+    >
+
+        <img
+            src="https://jspaint.app/images/icons/jspaint.svg"
+            alt="JSPaint"
+        >
+
+        <span>JSPaint</span>
+
+    </div>
+
+
+    <!-- =====================================================
+         WELCOME WINDOW
+         ===================================================== -->
+
+    <div
+        class="window"
+        id="welcome-window"
+    >
+
+        <div class="titlebar">
+
+            <div class="title-icon">
+
+                <img
+                    src="https://www.rw-designer.com/icon-image/5547-256x256x32.png"
+                    alt=""
+                >
+
+            </div>
+
+            <div class="title-text">
+                Microwave's Software
+            </div>
+
+            <div class="window-controls">
+
+                <button
+                    class="window-control"
+                    onclick="minimizeWindow('welcome-window')"
+                >_</button>
+
+                <button
+                    class="window-control"
+                    onclick="toggleMaximize('welcome-window')"
+                >□</button>
+
+                <button
+                    class="window-control"
+                    onclick="closeWindow('welcome-window')"
+                >×</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="menu-bar">
+
+            <div class="menu">File</div>
+            <div class="menu">Edit</div>
+            <div class="menu">View</div>
+            <div class="menu">Help</div>
+
+        </div>
+
+
+        <div class="window-content">
+
+            <div class="inset">
+
+                <h2 style="margin-top:0;">
+                    Microwave's Software
+                </h2>
+
+                <p>
+                    Welcome to Microwave's software collection.
+                </p>
+
+                <p>
+                    Choose something to download.
+                </p>
+
+                <hr>
+
+
+                <!-- =================================================
+                     MINEOPTIPORT
+                     ================================================= -->
+
+                <div class="software">
+
+                    <div class="software-icon">
+
+                        <img
+                            src="https://www.rw-designer.com/icon-image/5547-256x256x32.png"
+                            alt="MineOptiPort"
+                        >
+
+                    </div>
+
+                    <div class="software-info">
+
+                        <b>MineOptiPort</b>
+
+                        <p>
+                            Portable Minecraft 1.8.8 launcher.
+                        </p>
+
+                    </div>
+
+                    <a
+                        class="win-button"
+                        href="MineOptiPort-Setup.exe"
+                        download
+                    >
+                        Download
+                    </a>
+
+                </div>
+
+
+                <!-- =================================================
+                     CMATRIX
+                     ================================================= -->
+
+                <div class="software">
+
+                    <div class="software-icon">
+
+                        <img
+                            src="https://itsfoss.com/content/images/2023/10/Cmatrix.gif"
+                            alt="Windows CMatrix"
+                        >
+
+                    </div>
+
+                    <div class="software-info">
+
+                        <b>Windows CMatrix</b>
+
+                        <p>
+                            Matrix-style terminal effect for Windows.
+                        </p>
+
+                    </div>
+
+                    <a
+                        class="win-button"
+                        href="Windows-CMatrix.exe"
+                        download
+                    >
+                        Download
+                    </a>
+
+                </div>
+
+
+                <!-- =================================================
+                     WINDOWS G
+                     ================================================= -->
+
+                <div class="software">
+
+                    <div class="software-icon">
+
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Microsoft_Windows_3.1x_logo_with_wordmark.svg/500px-Microsoft_Windows_3.1x_logo_with_wordmark.svg.png"
+                            alt="WindowsG 3.11"
+                        >
+
+                    </div>
+
+                    <div class="software-info">
+
+                        <b>WindowsG 3.11 Hotfix</b>
+
+                        <p>
+                            Windows 3.11 virtual machine image.
+                        </p>
+
+                    </div>
+
+                    <a
+                        class="win-button"
+                        href="https://file.garden/anOZdBOaHBQsSVb8/WindosG3.11HOTFIX.ova"
+                        download
+                    >
+                        Download
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="statusbar">
+            3 programs available.
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         MINEOPTIPORT WINDOW
+         ========================================================= -->
+
+    <div
+        class="window"
+        id="mineopti-window"
+        style="
+            width:500px;
+            height:330px;
+            left:230px;
+            top:120px;
+            display:none;
+        "
+    >
+
+        <div class="titlebar">
+
+            <div class="title-text">
+                MineOptiPort
+            </div>
+
+            <div class="window-controls">
+
+                <button
+                    class="window-control"
+                    onclick="minimizeWindow('mineopti-window')"
+                >_</button>
+
+                <button
+                    class="window-control"
+                    onclick="toggleMaximize('mineopti-window')"
+                >□</button>
+
+                <button
+                    class="window-control"
+                    onclick="closeWindow('mineopti-window')"
+                >×</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="window-content">
+
+            <div class="inset">
+
+                <h3>
+                    MineOptiPort
+                </h3>
+
+                <p>
+                    Portable Minecraft 1.8.8 launcher.
+                </p>
+
+                <p>
+                    Everything stays together in the
+                    portable folder.
+                </p>
+
+            </div>
+
+
+            <div class="dialog-buttons">
+
+                <a
+                    class="win-button"
+                    href="https://filebin.net/ttcrhkzsekye233w/MineOptiPort1.8.8.7z"
+                    download
+                >
+                    Download
+                </a>
+
+                <button
+                    class="win-button"
+                    onclick="closeWindow('mineopti-window')"
+                >
+                    Close
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="statusbar">
+            MineOptiPort ready.
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         CMATRIX WINDOW
+         ========================================================= -->
+
+    <div
+        class="window"
+        id="cmatrix-window"
+        style="
+            width:500px;
+            height:300px;
+            left:280px;
+            top:190px;
+            display:none;
+        "
+    >
+
+        <div class="titlebar">
+
+            <div class="title-text">
+                Windows CMatrix
+            </div>
+
+            <div class="window-controls">
+
+                <button
+                    class="window-control"
+                    onclick="minimizeWindow('cmatrix-window')"
+                >_</button>
+
+                <button
+                    class="window-control"
+                    onclick="toggleMaximize('cmatrix-window')"
+                >□</button>
+
+                <button
+                    class="window-control"
+                    onclick="closeWindow('cmatrix-window')"
+                >×</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="window-content">
+
+            <div class="inset">
+
+                <h3>
+                    Windows CMatrix
+                </h3>
+
+                <p>
+                    Matrix-style terminal effect for Windows.
+                </p>
+
+            </div>
+
+
+            <div class="dialog-buttons">
+
+                <a
+                    class="win-button"
+                    href="https://github.com/icreaterandomapps/cmatrix-windows/releases/download/1.0/CMatrixSetup.exe"
+                    download
+                >
+                    Download
+                </a>
+
+                <button
+                    class="win-button"
+                    onclick="closeWindow('cmatrix-window')"
+                >
+                    Close
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="statusbar">
+            Windows CMatrix ready.
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         WINDOWS G WINDOW
+         ========================================================= -->
+
+    <div
+        class="window"
+        id="windowsg-window"
+        style="
+            width:540px;
+            height:350px;
+            left:320px;
+            top:150px;
+            display:none;
+        "
+    >
+
+        <div class="titlebar">
+
+            <div class="title-text">
+                WindowsG 3.11 Hotfix
+            </div>
+
+            <div class="window-controls">
+
+                <button
+                    class="window-control"
+                    onclick="minimizeWindow('windowsg-window')"
+                >_</button>
+
+                <button
+                    class="window-control"
+                    onclick="toggleMaximize('windowsg-window')"
+                >□</button>
+
+                <button
+                    class="window-control"
+                    onclick="closeWindow('windowsg-window')"
+                >×</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="window-content">
+
+            <div class="inset">
+
+                <div
+                    style="
+                        display:flex;
+                        align-items:center;
+                        gap:12px;
+                        margin-bottom:10px;
+                    "
+                >
+
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Microsoft_Windows_3.1x_logo_with_wordmark.svg/500px-Microsoft_Windows_3.1x_logo_with_wordmark.svg.png"
+                        alt="Windows 3.1"
+                        style="
+                            width:90px;
+                            max-height:60px;
+                            object-fit:contain;
+                        "
+                    >
+
+                    <div>
+
+                        <b>
+                            WindowsG 3.11 Hotfix
+                        </b>
+
+                        <br>
+
+                        Virtual machine image
+
+                    </div>
+
+                </div>
+
+
+                <p>
+                    A Windows 3.11 virtual machine image.
+                </p>
+
+                <p>
+                    Download the OVA and import it into
+                    VirtualBox or another compatible
+                    virtualization program.
+                </p>
+
+            </div>
+
+
+            <div class="dialog-buttons">
+
+                <a
+                    class="win-button"
+                    href="https://file.garden/anOZdBOaHBQsSVb8/WindosG3.11HOTFIX.ova"
+                    download
+                >
+                    Download
+                </a>
+
+                <button
+                    class="win-button"
+                    onclick="closeWindow('windowsg-window')"
+                >
+                    Close
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="statusbar">
+            WindowsG 3.11 Hotfix.
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         JSPAINT WINDOW
+         ========================================================= -->
+
+    <div
+        class="window"
+        id="paint-window"
+    >
+
+        <div class="titlebar">
+
+            <div class="title-icon">
+
+                <img
+                    src="https://jspaint.app/images/icons/jspaint.svg"
+                    alt=""
+                >
+
+            </div>
+
+            <div class="title-text">
+                JSPaint
+            </div>
+
+            <div class="window-controls">
+
+                <button
+                    class="window-control"
+                    onclick="minimizeWindow('paint-window')"
+                >_</button>
+
+                <button
+                    class="window-control"
+                    onclick="toggleMaximize('paint-window')"
+                >□</button>
+
+                <button
+                    class="window-control"
+                    onclick="closeWindow('paint-window')"
+                >×</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="menu-bar">
+
+            <div class="menu">File</div>
+            <div class="menu">Edit</div>
+            <div class="menu">View</div>
+            <div class="menu">Image</div>
+            <div class="menu">Help</div>
+
+        </div>
+
+
+        <iframe
+            id="paint-frame"
+            src="https://jspaint.app/"
+            title="JSPaint"
+        ></iframe>
+
+
+        <div class="statusbar">
+            JSPaint
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         BADGES
+         ========================================================= -->
+
+    <div id="web-buttons">
+
+
+        <img
+            src="https://jae.gg/images/buttons/png.png"
+            onerror="this.parentNode.removeChild(this)"
+            alt="PNG"
+        >
+
+
+        <img
+            src="https://jae.gg/images/buttons/webp.gif"
+            alt="WebP"
+        >
+
+
+        <a
+            href="https://webamp.org/"
+            target="_blank"
+            rel="noopener"
+        >
+
+            <img
+                src="https://jspaint.app/images/88x31/collected/winamp.gif"
+                width="88"
+                height="31"
+                alt="Winamp"
+            >
+
+        </a>
+
+
+        <a
+            href="https://github.com/icreaterandomapps"
+            target="_blank"
+            rel="noopener"
+        >
+
+            <img
+                src="https://jspaint.app/images/88x31/collected/github-check.gif"
+                width="88"
+                height="31"
+                alt="Check out my GitHub!"
+            >
+
+        </a>
+
+
+        <a
+            href="https://98.js.org"
+            target="_blank"
+            rel="noopener"
+        >
+
+            <img
+                src="https://jspaint.app/images/88x31/custom/98.js.org-88x31.png"
+                width="88"
+                height="31"
+                alt="98.JS"
+            >
+
+        </a>
+
+
+        <a
+            href="https://jspaint.app"
+            target="_blank"
+            rel="noopener"
+        >
+
+            <img
+                src="https://jspaint.app/images/88x31/custom/jspaint-button-88x31.png"
+                width="88"
+                height="31"
+                alt="JS Paint"
+            >
+
+        </a>
+
+
+        <img
+            src="https://jspaint.app/images/88x31/custom/windows-7-vs-11.png"
+            width="88"
+            height="31"
+            alt="Windows 7 is still better than Windows 11"
+        >
+
+    </div>
+
 </div>
 
-</header>
 
-<div class="container">
+<!-- =========================================================
+     START MENU
+     ========================================================= -->
 
-<div class="card">
+<div id="start-menu">
 
-<h2>🖱 Cursor Test</h2>
+    <div class="start-banner">
+        Microwave
+    </div>
 
-<p>
-Test dozens of Windows cursor types, including modern, resize, legacy, and unsupported cursors.
-</p>
 
-<a class="button" href="https://icreaterandomapps.github.io/cursortest/">
-Open Page
-</a>
+    <div class="start-content">
+
+
+        <div
+            class="start-item"
+            onclick="
+                openWindow('welcome-window');
+                toggleStart();
+            "
+        >
+
+            <div class="start-icon">
+
+                <img
+                    src="https://www.rw-designer.com/icon-image/5547-256x256x32.png"
+                    alt=""
+                >
+
+            </div>
+
+            <div>
+
+                <b>
+                    Microwave's Software
+                </b>
+
+                <br>
+
+                Homepage
+
+            </div>
+
+        </div>
+
+
+        <div
+            class="start-item"
+            onclick="
+                openWindow('mineopti-window');
+                toggleStart();
+            "
+        >
+
+            <div class="start-icon">
+
+                <img
+                    src="https://www.rw-designer.com/icon-image/5547-256x256x32.png"
+                    alt=""
+                >
+
+            </div>
+
+            <div>
+                MineOptiPort
+            </div>
+
+        </div>
+
+
+        <div
+            class="start-item"
+            onclick="
+                openWindow('cmatrix-window');
+                toggleStart();
+            "
+        >
+
+            <div class="start-icon">
+
+                <img
+                    src="https://itsfoss.com/content/images/2023/10/Cmatrix.gif"
+                    alt=""
+                >
+
+            </div>
+
+            <div>
+                Windows CMatrix
+            </div>
+
+        </div>
+
+
+        <div
+            class="start-item"
+            onclick="
+                openWindow('windowsg-window');
+                toggleStart();
+            "
+        >
+
+            <div class="start-icon">
+
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Microsoft_Windows_3.1x_logo_with_wordmark.svg/500px-Microsoft_Windows_3.1x_logo_with_wordmark.svg.png"
+                    alt=""
+                >
+
+            </div>
+
+            <div>
+                WindowsG 3.11 Hotfix
+            </div>
+
+        </div>
+
+
+        <div class="start-separator"></div>
+
+
+        <div
+            class="start-item"
+            onclick="
+                openWindow('paint-window');
+                toggleStart();
+            "
+        >
+
+            <div class="start-icon">
+
+                <img
+                    src="https://jspaint.app/images/icons/jspaint.svg"
+                    alt=""
+                >
+
+            </div>
+
+            <div>
+                JSPaint
+            </div>
+
+        </div>
+
+
+        <div class="start-separator"></div>
+
+
+        <div
+            class="start-item"
+            onclick="
+                showAbout();
+                toggleStart();
+            "
+        >
+
+            <div class="start-icon">
+                ?
+            </div>
+
+            <div>
+                About
+            </div>
+
+        </div>
+
+    </div>
 
 </div>
-<div class="card">
 
-<h2>🎮 Games</h2>
 
-<p>
-Go play some games directly in your browser. The first load may take a minute because the game is bundled into a single HTML file. Depends on your internet speed beacuse its 3-17MB.
-</p>
+<!-- =========================================================
+     TASKBAR
+     ========================================================= -->
 
-<a class="button" href="https://icreaterandomapps.github.io/games/">
-Open page
-</a>
+<div id="taskbar">
 
-</div>
-<div class="card">
 
-<h2>🌐 My Profiles</h2>
+    <button
+        id="start-button"
+        class="win-button"
+        onclick="toggleStart()"
+    >
+        Start
+    </button>
 
-<p>
-Find me around the web and check out my projects, cursor packs, and Minecraft creations.
-</p>
 
-<p>
-<a class="button" href="https://github.com/icreaterandomapps" target="_blank">GitHub</a>
-</p>
+    <div id="task-buttons">
 
-<p>
-<a class="button" href="https://modrinth.com/user/steveizcool" target="_blank">Modrinth</a>
-</p>
+        <button
+            class="task-button"
+            onclick="openWindow('welcome-window')"
+        >
+            Microwave's Software
+        </button>
 
-<p>
-<a class="button" href="https://www.rw-designer.com/user/121950" target="_blank">RealWorld Designer</a>
-</p>
+    </div>
 
-</div>
 
-</div>
+    <div id="clock">
+        12:00 AM
+    </div>
 
 </div>
 
-</div>
 
-<footer>
+<script>
 
-© 2026 iCreateRandomApps <a href="https://github.com/icreaterandomapps" target="_blank">
-    Visit my GitHub
-</a>
 
-</footer>
+/* =========================================================
+   WINDOW MANAGEMENT
+   ========================================================= */
+
+let highestZ = 1000;
+
+
+function bringToFront(win) {
+
+    highestZ++;
+
+    win.style.zIndex = highestZ;
+
+}
+
+
+function openWindow(id) {
+
+    const win =
+        document.getElementById(id);
+
+    if (!win) return;
+
+
+    win.style.display = "block";
+
+
+    bringToFront(win);
+
+}
+
+
+function closeWindow(id) {
+
+    const win =
+        document.getElementById(id);
+
+    if (!win) return;
+
+
+    win.style.display = "none";
+
+
+    win.classList.remove("maximized");
+
+}
+
+
+function minimizeWindow(id) {
+
+    const win =
+        document.getElementById(id);
+
+    if (!win) return;
+
+
+    win.style.display = "none";
+
+}
+
+
+/* =========================================================
+   MAXIMIZE / RESTORE
+   ========================================================= */
+
+function toggleMaximize(id) {
+
+    const win =
+        document.getElementById(id);
+
+    if (!win) return;
+
+
+    if (
+        win.classList.contains("maximized")
+    ) {
+
+        /* RESTORE */
+
+        win.classList.remove("maximized");
+
+
+        win.style.left =
+            win.dataset.oldLeft || "100px";
+
+
+        win.style.top =
+            win.dataset.oldTop || "50px";
+
+
+        win.style.width =
+            win.dataset.oldWidth || "";
+
+
+        win.style.height =
+            win.dataset.oldHeight || "";
+
+
+        win.style.transform =
+            win.dataset.oldTransform || "none";
+
+
+        updateMaxButton(
+            win,
+            false
+        );
+
+    }
+
+    else {
+
+        /* SAVE CURRENT SIZE */
+
+        const rect =
+            win.getBoundingClientRect();
+
+
+        win.dataset.oldLeft =
+            rect.left + "px";
+
+
+        win.dataset.oldTop =
+            rect.top + "px";
+
+
+        win.dataset.oldWidth =
+            rect.width + "px";
+
+
+        win.dataset.oldHeight =
+            rect.height + "px";
+
+
+        win.dataset.oldTransform =
+            win.style.transform || "none";
+
+
+        /* MAXIMIZE */
+
+        win.classList.add(
+            "maximized"
+        );
+
+
+        updateMaxButton(
+            win,
+            true
+        );
+
+    }
+
+
+    bringToFront(win);
+
+}
+
+
+/* =========================================================
+   MAXIMIZE BUTTON
+   ========================================================= */
+
+function updateMaxButton(
+    win,
+    maximized
+) {
+
+    const buttons =
+        win.querySelectorAll(
+            ".window-control"
+        );
+
+
+    if (buttons.length < 2)
+        return;
+
+
+    buttons[1].textContent =
+        maximized
+            ? "❐"
+            : "□";
+
+}
+
+
+/* =========================================================
+   DOUBLE CLICK TITLE BAR
+   ========================================================= */
+
+document
+    .querySelectorAll(".titlebar")
+    .forEach(titlebar => {
+
+        titlebar.addEventListener(
+            "dblclick",
+            function(e) {
+
+                if (
+                    e.target.closest(
+                        ".window-controls"
+                    )
+                ) {
+                    return;
+                }
+
+
+                const win =
+                    titlebar.closest(
+                        ".window"
+                    );
+
+
+                if (!win)
+                    return;
+
+
+                toggleMaximize(
+                    win.id
+                );
+
+            }
+        );
+
+    });
+
+
+/* =========================================================
+   ESC RESTORES MAXIMIZED WINDOW
+   ========================================================= */
+
+document.addEventListener(
+    "keydown",
+    function(e) {
+
+        if (
+            e.key !== "Escape"
+        ) {
+            return;
+        }
+
+
+        const maximized =
+            document.querySelector(
+                ".window.maximized"
+            );
+
+
+        if (maximized) {
+
+            toggleMaximize(
+                maximized.id
+            );
+
+        }
+
+    }
+);
+
+
+/* =========================================================
+   WINDOW FOCUS
+   ========================================================= */
+
+document
+    .querySelectorAll(".window")
+    .forEach(win => {
+
+        win.addEventListener(
+            "mousedown",
+            function() {
+
+                bringToFront(
+                    win
+                );
+
+            }
+        );
+
+    });
+
+
+/* =========================================================
+   DRAG WINDOWS
+   ========================================================= */
+
+document
+    .querySelectorAll(".titlebar")
+    .forEach(titlebar => {
+
+        let dragging = false;
+
+        let offsetX = 0;
+        let offsetY = 0;
+
+
+        titlebar.addEventListener(
+            "mousedown",
+            function(e) {
+
+                if (
+                    e.target.closest(
+                        ".window-controls"
+                    )
+                ) {
+                    return;
+                }
+
+
+                const win =
+                    titlebar.closest(
+                        ".window"
+                    );
+
+
+                if (
+                    win.classList.contains(
+                        "maximized"
+                    )
+                ) {
+                    return;
+                }
+
+
+                dragging = true;
+
+
+                const rect =
+                    win.getBoundingClientRect();
+
+
+                offsetX =
+                    e.clientX -
+                    rect.left;
+
+
+                offsetY =
+                    e.clientY -
+                    rect.top;
+
+
+                win.style.transform =
+                    "none";
+
+
+                bringToFront(
+                    win
+                );
+
+            }
+        );
+
+
+        document.addEventListener(
+            "mousemove",
+            function(e) {
+
+                if (!dragging)
+                    return;
+
+
+                const win =
+                    titlebar.closest(
+                        ".window"
+                    );
+
+
+                let newLeft =
+                    e.clientX -
+                    offsetX;
+
+
+                let newTop =
+                    e.clientY -
+                    offsetY;
+
+
+                newLeft =
+                    Math.max(
+                        0,
+                        Math.min(
+                            newLeft,
+                            window.innerWidth -
+                            100
+                        )
+                    );
+
+
+                newTop =
+                    Math.max(
+                        0,
+                        Math.min(
+                            newTop,
+                            window.innerHeight -
+                            50
+                        )
+                    );
+
+
+                win.style.left =
+                    newLeft + "px";
+
+
+                win.style.top =
+                    newTop + "px";
+
+            }
+        );
+
+
+        document.addEventListener(
+            "mouseup",
+            function() {
+
+                dragging = false;
+
+            }
+        );
+
+    });
+
+
+/* =========================================================
+   START MENU
+   ========================================================= */
+
+function toggleStart() {
+
+    const menu =
+        document.getElementById(
+            "start-menu"
+        );
+
+
+    if (
+        menu.style.display ===
+        "block"
+    ) {
+
+        menu.style.display =
+            "none";
+
+    }
+
+    else {
+
+        menu.style.display =
+            "block";
+
+    }
+
+}
+
+
+/* =========================================================
+   CLOSE START MENU WHEN DESKTOP IS CLICKED
+   ========================================================= */
+
+document
+    .getElementById("desktop")
+    .addEventListener(
+        "mousedown",
+        function() {
+
+            document
+                .getElementById(
+                    "start-menu"
+                )
+                .style.display =
+                "none";
+
+        }
+    );
+
+
+/* =========================================================
+   ABOUT
+   ========================================================= */
+
+function showAbout() {
+
+    alert(
+        "Microwave's Software\n\n" +
+        "MineOptiPort\n" +
+        "Windows CMatrix\n" +
+        "WindowsG 3.11 Hotfix\n" +
+        "JSPaint\n\n" +
+        "Classic software collection."
+    );
+
+}
+
+
+/* =========================================================
+   CLOCK
+   ========================================================= */
+
+function updateClock() {
+
+    const now =
+        new Date();
+
+
+    document
+        .getElementById(
+            "clock"
+        )
+        .textContent =
+        now.toLocaleTimeString(
+            [],
+            {
+                hour: "numeric",
+                minute: "2-digit"
+            }
+        );
+
+}
+
+
+updateClock();
+
+
+setInterval(
+    updateClock,
+    1000
+);
+
+
+/* =========================================================
+   TASKBAR BUTTONS FOR WINDOWS
+   ========================================================= */
+
+function createTaskButton(
+    id,
+    title
+) {
+
+    const container =
+        document.getElementById(
+            "task-buttons"
+        );
+
+
+    if (
+        document.getElementById(
+            "task-" + id
+        )
+    ) {
+        return;
+    }
+
+
+    const button =
+        document.createElement(
+            "button"
+        );
+
+
+    button.id =
+        "task-" + id;
+
+
+    button.className =
+        "task-button";
+
+
+    button.textContent =
+        title;
+
+
+    button.onclick =
+        function() {
+
+            const win =
+                document.getElementById(
+                    id
+                );
+
+
+            if (
+                win.style.display ===
+                "none"
+            ) {
+
+                openWindow(id);
+
+            }
+
+            else if (
+                win.classList.contains(
+                    "maximized"
+                )
+            ) {
+
+                toggleMaximize(id);
+
+            }
+
+            else {
+
+                bringToFront(win);
+
+            }
+
+        };
+
+
+    container.appendChild(
+        button
+    );
+
+}
+
+
+/* =========================================================
+   CREATE TASKBAR BUTTONS
+   ========================================================= */
+
+createTaskButton(
+    "mineopti-window",
+    "MineOptiPort"
+);
+
+createTaskButton(
+    "cmatrix-window",
+    "Windows CMatrix"
+);
+
+createTaskButton(
+    "windowsg-window",
+    "WindowsG 3.11"
+);
+
+createTaskButton(
+    "paint-window",
+    "JSPaint"
+);
+
+
+/* =========================================================
+   KEEP WINDOWS INSIDE SCREEN WHEN RESIZING
+   ========================================================= */
+
+window.addEventListener(
+    "resize",
+    function() {
+
+        document
+            .querySelectorAll(
+                ".window"
+            )
+            .forEach(win => {
+
+                if (
+                    win.classList.contains(
+                        "maximized"
+                    )
+                ) {
+                    return;
+                }
+
+
+                const rect =
+                    win.getBoundingClientRect();
+
+
+                if (
+                    rect.right >
+                    window.innerWidth
+                ) {
+
+                    win.style.left =
+                        Math.max(
+                            0,
+                            window.innerWidth -
+                            rect.width -
+                            5
+                        ) + "px";
+
+                }
+
+
+                if (
+                    rect.bottom >
+                    window.innerHeight -
+                    28
+                ) {
+
+                    win.style.top =
+                        Math.max(
+                            0,
+                            window.innerHeight -
+                            rect.height -
+                            33
+                        ) + "px";
+
+                }
+
+            });
+
+    }
+);
+
+</script>
 
 </body>
 </html>
+
